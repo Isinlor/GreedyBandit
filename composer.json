@@ -1,0 +1,23 @@
+{
+  "name": "isinlor/greedy-bandit",
+  "description": "Implementation of k-armed bandit strategies.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tomasz Darmetko",
+      "email": "tomasz.darmetko@gmail.com"
+    }
+  ],
+  "require": {
+    "webmozart/assert": "@stable"
+  },
+  "require-dev": {
+    "kahlan/kahlan": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Isinlor\\GreedyBandit\\": "src/"
+    }
+  }
+}
